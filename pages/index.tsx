@@ -1,5 +1,21 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import styled from '@emotion/styled'
+
+const Button = styled('button')`
+  color: black;
+  border: 1px solid black;
+  background-color: white;
+
+  &.primary {
+    color: blue;
+    border: 1px solid blue;
+  }
+
+  &.color-green {
+    color: green;
+  }
+`
 
 export default function Home() {
   return (
@@ -8,6 +24,8 @@ export default function Home() {
         <title>Create Next App</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
+
+      <Button className='primary color-green'>css-in-js</Button>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
