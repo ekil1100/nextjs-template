@@ -2,11 +2,12 @@
 
 ## Features
 
+- typescript
+- emotion
+- css-normalize
 - linter
 - formatter
-- css-normalize
-- emotion
-- typescript
+- lint-staged
 
 ## Getting started
 

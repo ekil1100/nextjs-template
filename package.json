@@ -12,15 +12,16 @@
     "lint:style": "stylelint **/*.{css,less,sass,scss,js,jsx,ts,tsx}",
     "fix": "run-s fix:style fix:eslint fix:format",
     "fix:eslint": "yarn lint:eslint --fix",
-    "fix:style": "yarn lint:style --fix"
+    "fix:style": "yarn lint:style --fix",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@emotion/css": "^11.1.3",
     "@emotion/react": "^11.1.5",
     "@emotion/styled": "^11.1.5",
-    "next": "10.0.8",
-    "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "next": "^10.1.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
   "devDependencies": {
     "@emotion/babel-plugin": "^11.2.0",
@@ -28,22 +29,19 @@
     "@types/react": "^17.0.3",
     "eslint": "^7.22.0",
     "eslint-config-like": "^1.8.3",
+    "husky": "^6.0.0",
     "lint-staged": ">=10",
     "npm-run-all": ">=4.1.5",
     "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-normalize": "^9.0.0",
     "postcss-preset-env": "^6.7.0",
     "prettier": "^2.2.1",
-    "simple-git-hooks": ">=2.0.3",
     "stylelint": "^13.12.0",
     "stylelint-config-prettier": "^8.0.2",
     "stylelint-config-rational-order": "^0.1.2",
     "stylelint-config-recommended": "^4.0.0",
     "stylelint-order": "^4.1.0",
     "typescript": "^4.2.3"
-  },
-  "simple-git-hooks": {
-    "pre-commit": "npx lint-staged"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": "eslint --cache --fix",
