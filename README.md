@@ -1,3 +1,13 @@
+# Cat
+
+## Features
+
+- linter
+- formatter
+- css-normalize
+- emotion
+- typescript
+
 ## Getting started
 
 ```bash
