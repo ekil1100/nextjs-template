@@ -4,8 +4,8 @@ import styled from '@emotion/styled'
 
 const Button = styled('button')`
   color: black;
-  border: 1px solid black;
   background-color: white;
+  border: 1px solid black;
 
   &.primary {
     color: blue;
@@ -17,7 +17,7 @@ const Button = styled('button')`
   }
 `
 
-export default function Home() {
+export default function Home(): JSX.Element {
   return (
     <div className={styles.container}>
       <Head>
@@ -47,7 +47,10 @@ export default function Home() {
             <p>Learn about Next.js in an interactive course with quizzes!</p>
           </a>
 
-          <a href='https://github.com/vercel/next.js/tree/master/examples' className={styles.card}>
+          <a
+            href='https://github.com/vercel/next.js/tree/master/examples'
+            className={styles.card}
+          >
             <h3>Examples &rarr;</h3>
             <p>Discover and deploy boilerplate example Next.js projects.</p>
           </a>
