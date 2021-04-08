@@ -7,9 +7,9 @@
 - css-normalize
 - linter
 - formatter
-- lint-staged
+- precommit lint stage
 
-## Getting started
+## Usage
 
 ```bash
 yarn create next-app --example https://github.com/ekilzen/next-cat next-cat-app

@@ -45,7 +45,7 @@
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": "eslint --cache --fix",
-    "*.{css,less,sass,scss,js,jsx,ts,tsx}": "stylelint --fix",
+    "*.{css,js,jsx,ts,tsx}": "stylelint --fix",
     "*": "prettier --check --write"
   },
   "volta": {
