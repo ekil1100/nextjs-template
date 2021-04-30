@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['like', 'like/react', 'like/nextjs'],
+  extends: ['like', 'like/react'],
   overrides: [
     {
       files: ['*.ts', '*.tsx'],
