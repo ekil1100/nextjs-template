@@ -1,4 +1,4 @@
-# Cat
+# next-cat
 
 ## Features
 
