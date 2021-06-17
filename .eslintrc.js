@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['like', 'next', 'next/core-web-vitals'],
+  extends: ['like', 'like/react', 'plugin:@next/next/recommended'],
   overrides: [
     {
       files: ['*.ts', '*.tsx'],
