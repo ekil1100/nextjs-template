@@ -1,6 +1,5 @@
 {
-  "name": "meprint-next",
-  "version": "0.1.0",
+  "name": "next-cat",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -48,8 +47,8 @@
     "*.{css,js,jsx,ts,tsx}": "stylelint --fix",
     "*": "prettier --check --write"
   },
-  "volta": {
-    "node": "14.16.0",
-    "yarn": "1.22.10"
+  "engines": {
+    "node": ">=14",
+    "pnpm": ">=6"
   }
 }
