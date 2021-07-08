@@ -1,20 +1,21 @@
 # next-cat
 
-## Features
+## Includes
 
 - typescript
 - emotion
 - css-normalize
 - linter
 - formatter
-- precommit lint stage
+- husky
 
 ## Usage
 
 ```bash
-yarn create next-app --example https://github.com/ekilzen/next-cat next-cat-app
+pnpx create-next-app --example https://github.com/ekilzen/next-cat next-cat-app
 ```
 
 ```bash
+cd next-cat-app
 pnpm i
 ```
