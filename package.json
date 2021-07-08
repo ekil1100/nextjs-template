@@ -11,8 +11,8 @@
     "lint:eslint": "eslint .",
     "lint:style": "stylelint **/*.{css,less,sass,scss,js,jsx,ts,tsx}",
     "fix": "run-s fix:*",
-    "fix:eslint": "yarn lint:eslint --fix",
-    "fix:style": "yarn lint:style --fix",
+    "fix:eslint": "pnpm lint:eslint --fix",
+    "fix:style": "pnpm lint:style --fix",
     "prepare": "husky install"
   },
   "dependencies": {
