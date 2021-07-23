@@ -4,7 +4,6 @@
 
 - typescript
 - emotion
-- css-normalize
 - linter
 - formatter
 - husky
