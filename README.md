@@ -1,4 +1,4 @@
-# next-cat
+# nextjs-template
 
 ## Includes
 
@@ -11,10 +11,10 @@
 ## Usage
 
 ```bash
-pnpx create-next-app --example https://github.com/ekilzen/next-cat next-cat-app
+pnpx create-next-app --example https://github.com/ekilzen/nextjs-template next-app
 ```
 
 ```bash
-cd next-cat-app
+cd next-app
 pnpm i
 ```

@@ -1,5 +1,5 @@
 {
-  "name": "next-cat",
+  "name": "nextjs",
   "private": true,
   "scripts": {
     "dev": "next dev",
