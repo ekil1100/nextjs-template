@@ -1,20 +1,11 @@
 # nextjs-template
 
-## Includes
-
-- typescript
-- emotion
-- linter
-- formatter
-- husky
+typescript + emotion + eslint + stylelint + prettier + husky
 
 ## Usage
 
 ```bash
 pnpx create-next-app --example https://github.com/ekilzen/nextjs-template next-app
-```
-
-```bash
 cd next-app
 pnpm i
 ```
